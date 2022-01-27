@@ -11,10 +11,16 @@ https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42
 /* Global Styles
 ----------------------------------- */
 body {
-        color: 343434;
+        color: #343434;
 }
 img{
         width: 300px;
+}
+a {
+        color: #FF9B42; 
+}
+a:hover {
+        text-decoration: none;
 }
 
 
@@ -29,11 +35,26 @@ header {
 .projects {
         background: #D9E5D6;
 }
+.projects a {
+        color: #343434
+}
+.projects .btn {
+        color: #f7fff7;
+        background: #0FA3B1;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 7px;
+}
+.projects .btn:hover {
+        background: rgba(15,163,177,80%);
+}
+
 /* Work Experience
 ----------------------------------- */
 .work-experience {
         background: #EDDEA4;
 }
+
 /* Education
 ----------------------------------- */
 
