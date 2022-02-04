@@ -12,38 +12,48 @@ https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42
 ----------------------------------- */
 body {
         color: #343434;
+        margin: 0;
+        padding: 0;
 }
 img{
         width: 300px;
 }
 a {
-        color: #FF9B42; 
+        color: #ffbb37; 
 }
 a:hover {
         text-decoration: none;
 }
-
+h2 {
+        margin: 0;
+}
+.content-wrap {
+        width: 800px;
+        margin: 0 auto;
+        padding: 60px 0;
+}
 
 /* Profile
 ----------------------------------- */
 header {
-        background: #0FA3B1;
-        color: #D9E5D6;
+        background: #006170;
+        color: #f3edd4;
 }
 /* Projects
 ----------------------------------- */
 .projects {
-        background: #D9E5D6;
+        background: #f3edd4;
 }
 .projects a {
         color: #343434
 }
 .projects .btn {
         color: #f7fff7;
-        background: #0FA3B1;
+        background: #006170;
         text-decoration: none;
         padding: 8px;
         border-radius: 7px;
+        display: inline-block;
 }
 .projects .btn:hover {
         background: rgba(15,163,177,80%);
@@ -52,7 +62,7 @@ header {
 /* Work Experience
 ----------------------------------- */
 .work-experience {
-        background: #EDDEA4;
+        background: #f3edd4;
 }
 
 /* Education
@@ -62,5 +72,5 @@ header {
 ----------------------------------- */
 footer {
         background: #343434;
-        color: #D9E5D6;
+        color: #f3edd4;
 }
