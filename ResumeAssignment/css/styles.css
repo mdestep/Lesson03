@@ -7,8 +7,52 @@ https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42
 #FF9B42 - orange
 */
 
+/* Navigation Bar
+----------------------------------- */
+#navbar {
+        background: #006170;
+        padding: 15px 20px;  
+        width:100%;
+}
+#nav, #nav ul { /*all lists*/
+        padding: 10px 10px;   
+        margin: 0;
+        list-style: none;
+        line-height: 1;
+}
+#nav a {
+        display: block;
+        width: 170px;
+        text-decoration: none;
+       
 
-
+}
+#nav li {
+        float: left;
+        width: 170px;
+        
+}
+#nav li ul {
+        position: absolute;
+        background: rgb(0, 52, 68);
+        width: 170px;
+        top: 40px;  
+        left: -999em;
+        cursor: pointer; 
+        padding: 10px 10px;
+        line-height: 1.5;       
+}
+#nav li:hover ul {
+        left:auto;
+        
+}
+#nav li ul li:hover {
+        background: rgb(0, 39, 49);
+        color: #ffffff;
+   
+       
+        
+}
 /* Global Styles
 ----------------------------------- */
 html {
